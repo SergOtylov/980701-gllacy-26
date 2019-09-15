@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .cls-1 {
-        opacity: 0.8;
-      }
-    </style>
-  </defs>
-  <image id="Твитер" class="cls-1" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC0ElEQVRYhc2XPWgUURDHf7McQuIn4gdElKAklR9N7IOFH4UKphAiCGdjExIhEOwFFcEiYJ/KgAhX2AU1WFqki4qQoCGBCBYBxaRQceTdzZ57+/btS0JO/VV3O7M7s+/N+8+ssE5UdTfQD/QBPUAX0Gl3rwHLwBwwA7wSkS/reXI0AVV1warAGaDiORTzE5gGJkRkrtAjloCqurcbBgbK/CIoUAPGRWStyLXwwap6FHgIHPaMm2MJGBWRD9EEVPUE8AjYvkXBU1aBIRGZDSZgbz7RhuDZJKrZlWgmYHv+eAuXPYTbjmtpTSQZp+G/EByLMZL+qSdgR23Ac20fVyxmcwWqRQVpqHfFx+3tOHAJOA+MAQvm5QTqR+4OsZiIKdxUQGQWgQfAfWCHZ23g9vKGiMy3ZK26CzgIfAee5rYbE6tziclrUXDHgoi8Bq4D7z1rg4l88PqbiXw1FdwLvPHuasTsT0zbQ3TbwxYtibvAx5zvy8C9bhW2AReAk56xQV/FGkuII06YnHiIyC+T1ZqqusScYO2zYxXikCu4gM3RU7GuFuIdcFxV31oC6fIuZIqsjP0lNkdXkmmpRewBnmSDb5DuiHtnvjK9DIFbqhrzC1FWX3USO0ZlDAK3VTV0DAuxAjxdZMuwlphQxJgSkW8RnzwXgZ3e1VaWExujYoyp6oGITxMTt5uewWcusRkuxjHgmaresa4ZxJb+nglQjJmYFDvRWQE+2ZF8ISIrnpdhq+SCn/KMPnUprrjpVVXdAHnWc2kMJpPA87IaUFXXYi8DV4EOz6GYaRdb+NOOJ0s6otOBeauXz3Z6Okxoek3xNoLrsIOuV9SX3f1Q1VrJTJBYoF7Psjlq6bj+/4xkdmHUhot2sWrjeVP8WiTWptWhNiWRjuUt3waextvcXo202Y2yZOP4bP6+UNWnNTFi/TzoF2Fzn2a5RP7Nx2lBIlv/eQ78BmQt7InokolbAAAAAElFTkSuQmCC"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+	<path fill="#FFFFFF" d="M16,0C7.164,0,0,7.164,0,16c0,8.837,7.164,16,16,16c8.837,0,16-7.163,16-16C32,7.164,24.837,0,16,0z
+		 M23.944,12.809c-0.251,6.516-3.463,10.832-10.992,10.702c-0.14,0-0.205,0-0.233,0c-0.015,0-0.021,0-0.021,0
+		c-0.029,0-0.094,0-0.232,0c-0.447,0-4.543-0.443-5.344-1.823c2.479,0.19,4.247-0.406,5.12-1.136
+		c-1.048-0.289-2.923-0.461-3.251-2.848c0.384,0.104,0.618,0.221,1.299,0.113c-1.307-0.824-2.758-1.519-2.679-3.643
+		c0.311,0.317,1.164,0.518,1.46,0.457c-0.768-0.233-2.149-3.244-0.974-4.781c1.984,1.79,4.075,3.482,7.804,3.643
+		c0.227-2.214,1.24-3.699,3.168-4.325c1.84-0.479,3.255,0.26,3.901,1.138c0.737-0.224,1.453-0.466,2.193-0.685
+		c-0.004,0.833-0.569,1.463-0.935,1.709c0.747,0.165,1.423-0.475,1.423-0.475C25.467,11.818,24.557,12.58,23.944,12.809z"/>
+</g>
 </svg>
