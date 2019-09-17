@@ -12,6 +12,13 @@
       <img src="img/Index-logo-gllacy.svg" width="154" height="64" alt="Логотип Глейси">
       <ul>
         <li><a href="catalog.html">Каталог</a></li>
+        <ul>
+          <li><a href="">Новинки</a></li>
+          <li><a href="">Сливочное</a></li>
+          <li><a href="">Щербеты</a></li>
+          <li><a href="">Фруктовый лёд</a></li>
+          <li><a href="">Мелорин</a></li>
+        </ul>
         <li><a href="">Доставка и оплата</a></li>
         <li><a href="">О компании</a></li>
       </ul>
@@ -48,16 +55,31 @@
         <h2>Новое в нашем блоке</h2>
         <a href="">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
-      <form>
-        <h2>Подписка на новости</h2>
+      <form class="subscriprion" method="POST" action="https://echo.htmlacademy.ru">
+        <h2 class="visually-hidden">Подписка на новости</h2>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
           Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
         <div>
-          <input type="email">Электронная почта
+          <label class="visually-hidden" for="user-subscriprion">Электронная почта</label>
+          <input id="user-subscriprion" type="email" name="subscription" placeholder="email@example.com">
           <button type="submit">Отправить</button>
         </div>
-        <!--Здесь будет форма-->
       </form>
+    </section>
+    <section>
+      <h2 class="visually-hidden">Местонахождение и контактная информация</h2>
+      <img src="img/map.jpg" width="1200" height="640" alt="Адрес главного офиса и офлайн-магазин">
+      <div>
+        <p>Адрес главного офиса и офлайн-магазин:<br>
+          ул. Большая Конюшенная<br>
+          19/8, Санкт-Петербург<br>
+        </p>
+        <p>Для заказов по телефону:<br>
+          8 812 450-25-25<br>
+          (с 10 до 20, ежедневно)
+        </p>
+        <button type="button">Форма обратной связи</button>
+      </div>
     </section>
   </main>
   <footer>
@@ -74,37 +96,54 @@
       <li><a href="">экологические стандарты</a></li>
     </ul>
     <div>
-      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy-small.svg" width="108" height="39"
-          alt="Логотип HTML-Academy"></a>
+      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy-small.svg" width="108"
+          height="39" alt="Логотип HTML-Academy"></a>
       <p>Сделано в HTML-Academy &copy; 2017</p>
     </div>
   </footer>
+
   <section>
-    <h2>Контактная информация</h2>
-    <p>Адрес главного офиса и офлайн-магазин:<br>
-      ул. Большая Конюшенная<br>
-      19/8, Санкт-Петербург<br>
-    </p>
-    <p>Для заказов по телефону:<br>
-      8 812 450-25-25<br>
-      (с 10 до 20, ежедневно)
-    </p>
-    <button type="button">Форма обратной связи</button>
+    <h2>Форма поиска</h2>
+    <form class="Search" method="get" action="https://echo.htmlacademy.ru">
+      <label for="user-search">Поиск продукции</label>
+      <input id="user-search" type="text" name="Search" placeholder="Крем-брюле">
+    </form>
   </section>
 
   <section>
     <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль</p>
-    <!--Здесь будет форма-->
-    <p><a href="">Забыли пароль?</a></p>
-    <p><a href="">Новая регистрация</a></p>
-    <button type="button">Войти</button>
+    <form class="user" method="POST" action="https://echo.htmlacademy.ru">
+      <p>
+        <label for="user-login">Логин</label>
+        <input id="user-login" type="email" name="login" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="user-password">Пароль</label>
+        <input id="user-password" type="password" name="password" placeholder="........">
+      </p>
+      <p><a href="">Забыли пароль?</a></p>
+      <p><a href="">Новая регистрация</a></p>
+      <button type="button">Войти</button>
   </section>
 
   <section>
-    <h2>Обратная связь</h2>
-    <p>Мы обязательно вам ответим!</p>
-    <!--Здесь будет форма-->
+    <form class="feedback" method="POST" action="https://echo.htmlacademy.ru">
+      <h2>Обратная связь</h2>
+      <p>Мы обязательно вам ответим!</p>
+      <p>
+        <label for="username-feedback">Имя клиента</label>
+        <input id="username-feedback" type="text" name="username" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="user-email-feedback">Электронная почта</label>
+        <input id="user-email-feedback" type="email" name="user-email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="user-text-feedback">Текстовое поле</label>
+        <input id="user-text-feedback" type="text" name="user-text" placeholder="В свободной форме">
+      </p>
+    </form>
     <button type="button">Отправить</button>
   </section>
 </body>
